@@ -2,7 +2,7 @@ import * as firebase from "firebase/app";
 import "firebase/database";
 
 const config = {
-  apiKey: process.env.firebaseAPI,
+  apiKey: process.env.REACT_APP_firebaseAPI,
   authDomain: "todo-list-75666.firebaseapp.com",
   databaseURL: "https://todo-list-75666.firebaseio.com",
   projectId: "todo-list-75666",
